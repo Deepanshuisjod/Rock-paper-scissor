@@ -1,0 +1,60 @@
+body{
+    background-color: black ;
+    margin: 0px ;    
+    border: 7px solid rgb(175, 125, 32);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.Heading{ 
+    color: white;
+    font-size: 70px;
+}
+
+.Choose{
+    color: aqua;
+    font-size: 40px;
+}
+
+.Images {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around; 
+    padding-top: 60px;
+}
+
+.Rock, .Paper, .Scissor {
+    display: flex;
+    padding: 10px ;
+    border: 10px solid violet;
+    width: 300px;
+    height: 300px;
+}
+
+.Names{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: bisque;
+    padding-top: 20px;
+    font-size: 35px;
+}
+
+.Result{
+    display: flex;
+    color: aquamarine;
+    font-size: 30px;
+    padding: 100px;
+    padding-left: 265px;
+}
+
+
+.icon{
+    display: flex;
+    justify-content: center;
+}
+.username{
+    display:flex;
+    color: white;
+    justify-content: center;
+    background-color: rgb(77, 77, 77);
+}
