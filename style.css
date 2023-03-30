@@ -40,14 +40,21 @@ body{
     font-size: 35px;
 }
 
-.Result{
+#Result{
     display: flex;
     color: aquamarine;
-    font-size: 30px;
-    padding: 100px;
-    padding-left: 265px;
+    font-size: 50px;
+    justify-content: center;
+    padding: 50px;
 }
 
+#CompResult{
+    display: flex;
+    color: aquamarine;
+    font-size: 50px;
+    justify-content: center;
+    padding: 50px;
+}
 
 .icon{
     display: flex;
